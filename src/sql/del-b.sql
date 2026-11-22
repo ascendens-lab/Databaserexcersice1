@@ -10,4 +10,10 @@ where outcome !='Successful';
 
 -- 6.
 
+select launch_date, mission_type
+from moon_mission
+
+where launch_date <  '1960-01-01'
+
+order by launch_date;
 
