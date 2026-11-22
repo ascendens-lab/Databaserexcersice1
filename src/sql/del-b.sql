@@ -16,4 +16,13 @@ from moon_mission
 where launch_date <  '1960-01-01'
 
 order by launch_date;
+-- 7
+
+select spacecraft, mission_id
+from  moon_mission
+where spacecraft like 'luna%'
+order by spacecraft ;
+
+-- Jag får 5 rader vilket, jag förväntar mig.
+
 
