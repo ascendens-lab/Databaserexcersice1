@@ -39,3 +39,25 @@ where last_name ='Åström'
    or last_name ='Fransson'
 order by first_name;
 
+-- 10
+
+select *
+from moon_mission
+
+where  operator = 'NASA';
+
+-- NASA förekommer inte som ett ord i kolumnen utan bara med mellanslag mellan bokstäverna,
+-- så sql ser det inte som ett ord.
+
+-- 11.
+
+select *
+
+from moon_mission
+
+where mission_type = 'Impactor'
+
+-- Det blir en träff men det borde bli två.
+-- Orsaken till det är mellanslaget som ligger före Impactor i tabellen mission_type för uppdrag 2.
+
+
