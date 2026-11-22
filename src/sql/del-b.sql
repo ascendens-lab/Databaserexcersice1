@@ -31,3 +31,11 @@ select spacecraft, launch_date
 from moon_mission
 order by  launch_date desc limit 3;
 
+-- 9.
+
+select *
+from account
+where last_name ='Åström'
+   or last_name ='Fransson'
+order by first_name;
+
