@@ -108,3 +108,19 @@ where launch_date > '2009-12-31';
 -- NoSQL: Med många olika attribut så blir det många tabeller eller tabeller med många kolumner,
 -- varav en del kommer vara tomma, för att hantera det med SQL. Med MySQL så kan varje produkt
 -- ha sin egen struktur för sin data.
+
+-- 18
+
+-- Jag har använt AI för att förtydliga någon fråga, men inte till själva koden.
+-- Så jag har inget exempel på hur det skiljer sig mellan prompten och SQL-filen.
+-- Men när jac skulle börja fick inget svar på den här koden, "SELECT *FROM account;"
+-- ,så då frågade jag vad det berodde på.  Jag fick då förslaget att skriva
+-- "SELECT DATABASE();" och när det blev NULL så blev det tydligt att ingen databas var vald.
+-- "USE laboration1;" som blev föreslaget som lösning fungerade. 😊
+
+-- 19
+
+-- För att lösenordet sparas som läsbar text i tabellen vilket gör det lätt att komma åt.
+-- Kommer man över tabellen har man tillgång till användarid och lösenordet. Lösenordet
+-- ska sparas säkert på något sätt, som till exempel genom att man använder en envägs
+-- hashalgoritm.
