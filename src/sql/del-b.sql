@@ -23,7 +23,7 @@ from  moon_mission
 where spacecraft like 'luna%'
 order by spacecraft ;
 
--- Jag får 5 rader vilket, jag förväntar mig.
+-- Jag får 5 rader, vilket jag förväntar mig då jag bara ser 5 uppdrag som börjar med Luna.
 
 -- 8.
 
