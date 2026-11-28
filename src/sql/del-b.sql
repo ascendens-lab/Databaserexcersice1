@@ -23,7 +23,10 @@ from  moon_mission
 where spacecraft like 'luna%'
 order by spacecraft ;
 
--- Jag får 5 rader, vilket jag förväntar mig då jag bara ser 5 uppdrag som börjar med Luna.
+-- Jag får 5 rader, vilket jag förväntar mig då jag ser 5 uppdrag som börjar med bokstavskombinationen "Luna".
+-- Hade jag räknat med att sökningen skulle göras bara på uppdrag som börjar med "Luna" som ett ord,
+-- hade jag förväntat mig 4 träffar då "Lunar" inte skulle ha ingått.
+
 
 -- 8.
 
